@@ -115,8 +115,8 @@ function calculate() {
     let foundations = document.getElementById('foundations').value || 0
     let objects = document.getElementById('objects').value || 0
 
-    let imperativeCalculated = parseFloat(imperative) * 0.30
-    let foundationsCalculated = parseFloat(foundations) * 0.20
+    let imperativeCalculated = parseFloat(imperative) * 0.20
+    let foundationsCalculated = parseFloat(foundations) * 0.30
     let objectsCalculated = parseFloat(objects) * 0.20
 
     let total = imperativeCalculated + foundationsCalculated + objectsCalculated
